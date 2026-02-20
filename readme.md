@@ -22,7 +22,7 @@ This project bridges classic enterprise data formats (XML) with modern UI/UX des
 
 ## 📂 Project Structure
 
-\`\`\`text
+```text
 hr-directory/
 ├── index.html          # Main application shell and UI controls
 ├── data/
@@ -33,7 +33,7 @@ hr-directory/
 ├── js/
 │   └── app.js          # Handles fetching, XSLT processing, and filtering logic
 └── README.md           # Project documentation
-\`\`\`
+```
 
 ## 🚀 How to Run the Project
 
