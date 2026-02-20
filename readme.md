@@ -66,3 +66,11 @@ hr-directory/
 4. **Injection & Tagging:** The resulting HTML is injected into the `<main>` container. During transformation, the XSLT strategically attaches custom `data-*` attributes (e.g., `data-department`, `data-name`) to each card.
 5. **Filtering:** When a user types in the search bar or clicks a filter, JavaScript reads these `data-*` attributes and toggles the `display` property of the cards, resulting in lightning-fast sorting without re-rendering the DOM.
 6. **Adding Data:** Submitting the "Add Employee" form creates new XML nodes, appends them to the in-memory `xmlDoc`, and re-runs the `XSLTProcessor` to update the screen. *(Note: Changes reset on page refresh since there is no persistent database connection).*
+
+## 📸 Preview
+
+### Home Page 
+![Employee Directory App](assets/HomePage.png)
+
+### Home Page 
+![Employee Directory App](assets/AddNewEmployee.png)
