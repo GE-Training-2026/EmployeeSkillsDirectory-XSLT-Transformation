@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registry>
+    <employee id="EMP001" isMentor="true">
+        <name>Sarah Jenkins</name>
+        <role>Senior Frontend Engineer</role>
+        <department>Engineering</department>
+        <email>sarah.j@company.com</email>
+        <skills>
+            <skill>React</skill>
+            <skill>JavaScript</skill>
+            <skill>CSS Architecture</skill>
+        </skills>
+    </employee>
+
+    <employee id="EMP002" isMentor="false">
+        <name>David Chen</name>
+        <role>Product Manager</role>
+        <department>Product</department>
+        <email>david.c@company.com</email>
+        <skills>
+            <skill>Agile</skill>
+            <skill>Roadmapping</skill>
+            <skill>UX Design</skill>
+        </skills>
+    </employee>
+
+    <employee id="EMP003" isMentor="true">
+        <name>Elena Rodriguez</name>
+        <role>DevOps Lead</role>
+        <department>Engineering</department>
+        <email>elena.r@company.com</email>
+        <skills>
+            <skill>AWS</skill>
+            <skill>Docker</skill>
+            <skill>CI/CD</skill>
+        </skills>
+    </employee>
+
+    <employee id="EMP004" isMentor="false">
+        <name>Michael Chang</name>
+        <role>Data Analyst</role>
+        <department>Data Science</department>
+        <email>michael.c@company.com</email>
+        <skills>
+            <skill>Python</skill>
+            <skill>SQL</skill>
+            <skill>Tableau</skill>
+        </skills>
+    </employee>
+
+    <employee id="EMP005" isMentor="true">
+        <name>Anita Patel</name>
+        <role>Machine Learning Engineer</role>
+        <department>Data Science</department>
+        <email>anita.p@company.com</email>
+        <skills>
+            <skill>Python</skill>
+            <skill>TensorFlow</skill>
+            <skill>NLP</skill>
+        </skills>
+    </employee>
+
+    <employee id="EMP006" isMentor="false">
+        <name>James Wilson</name>
+        <role>Backend Developer</role>
+        <department>Engineering</department>
+        <email>james.w@company.com</email>
+        <skills>
+            <skill>Java</skill>
+            <skill>Spring Boot</skill>
+            <skill>Microservices</skill>
+        </skills>
+    </employee>
+
+    <employee id="EMP007" isMentor="true">
+        <name>Marcus Johnson</name>
+        <role>Principal Product Owner</role>
+        <department>Product</department>
+        <email>marcus.j@company.com</email>
+        <skills>
+            <skill>Scrum</skill>
+            <skill>Stakeholder Management</skill>
+            <skill>Jira</skill>
+        </skills>
+    </employee>
+
+    <employee id="EMP008" isMentor="false">
+        <name>Sophia Lee</name>
+        <role>Mobile Engineer</role>
+        <department>Engineering</department>
+        <email>sophia.l@company.com</email>
+        <skills>
+            <skill>Flutter</skill>
+            <skill>Dart</skill>
+            <skill>Firebase</skill>
+        </skills>
+    </employee>
+
+    <employee id="EMP009" isMentor="true">
+        <name>Omar Farooq</name>
+        <role>Data Engineer</role>
+        <department>Data Science</department>
+        <email>omar.f@company.com</email>
+        <skills>
+            <skill>Apache Spark</skill>
+            <skill>Kafka</skill>
+            <skill>AWS Redshift</skill>
+        </skills>
+    </employee>
+
+    <employee id="EMP010" isMentor="false">
+        <name>Chloe Bennett</name>
+        <role>UX Researcher</role>
+        <department>Product</department>
+        <email>chloe.b@company.com</email>
+        <skills>
+            <skill>User Interviews</skill>
+            <skill>Wireframing</skill>
+            <skill>Figma</skill>
+        </skills>
+    </employee>
+
+    <employee id="EMP011" isMentor="true">
+        <name>Liam O'Connor</name>
+        <role>Cloud Architect</role>
+        <department>Engineering</department>
+        <email>liam.o@company.com</email>
+        <skills>
+            <skill>Terraform</skill>
+            <skill>Kubernetes</skill>
+            <skill>System Design</skill>
+        </skills>
+    </employee>
+
+    <employee id="EMP012" isMentor="false">
+        <name>Zoe Martinez</name>
+        <role>Full Stack Developer</role>
+        <department>Engineering</department>
+        <email>zoe.m@company.com</email>
+        <skills>
+            <skill>Node.js</skill>
+            <skill>React</skill>
+            <skill>MongoDB</skill>
+        </skills>
+    </employee>
+
+    <employee id="EMP013" isMentor="true">
+        <name>Tarik Ahmed</name>
+        <role>Technical PM</role>
+        <department>Product</department>
+        <email>tarik.a@company.com</email>
+        <skills>
+            <skill>API Design</skill>
+            <skill>Agile</skill>
+            <skill>System Architecture</skill>
+        </skills>
+    </employee>
+
+    <employee id="EMP014" isMentor="false">
+        <name>Nina Dobrev</name>
+        <role>BI Developer</role>
+        <department>Data Science</department>
+        <email>nina.d@company.com</email>
+        <skills>
+            <skill>Power BI</skill>
+            <skill>SQL</skill>
+            <skill>DAX</skill>
+        </skills>
+    </employee>
+
+    <employee id="EMP015" isMentor="true">
+        <name>William Smith</name>
+        <role>Security Engineer</role>
+        <department>Engineering</department>
+        <email>william.s@company.com</email>
+        <skills>
+            <skill>Penetration Testing</skill>
+            <skill>OWASP</skill>
+            <skill>Cryptography</skill>
+        </skills>
+    </employee>
+
+    <employee id="EMP016" isMentor="false">
+        <name>Emma Watson</name>
+        <role>Associate Product Manager</role>
+        <department>Product</department>
+        <email>emma.w@company.com</email>
+        <skills>
+            <skill>Market Analysis</skill>
+            <skill>A/B Testing</skill>
+            <skill>Google Analytics</skill>
+        </skills>
+    </employee>
+
+    <employee id="EMP017" isMentor="false">
+        <name>Rajiv Kapoor</name>
+        <role>QA Automation Engineer</role>
+        <department>Engineering</department>
+        <email>rajiv.k@company.com</email>
+        <skills>
+            <skill>Selenium</skill>
+            <skill>Cypress</skill>
+            <skill>Java</skill>
+        </skills>
+    </employee>
+
+    <employee id="EMP018" isMentor="true">
+        <name>Aisha Khan</name>
+        <role>AI Researcher</role>
+        <department>Data Science</department>
+        <email>aisha.k@company.com</email>
+        <skills>
+            <skill>PyTorch</skill>
+            <skill>Deep Learning</skill>
+            <skill>Computer Vision</skill>
+        </skills>
+    </employee>
+
+    <employee id="EMP019" isMentor="false">
+        <name>Lucas Silva</name>
+        <role>Frontend Developer</role>
+        <department>Engineering</department>
+        <email>lucas.s@company.com</email>
+        <skills>
+            <skill>Vue.js</skill>
+            <skill>TypeScript</skill>
+            <skill>Tailwind CSS</skill>
+        </skills>
+    </employee>
+
+    <employee id="EMP020" isMentor="true">
+        <name>Grace Hopper</name>
+        <role>Site Reliability Engineer</role>
+        <department>Engineering</department>
+        <email>grace.h@company.com</email>
+        <skills>
+            <skill>Linux</skill>
+            <skill>Go</skill>
+            <skill>Prometheus</skill>
+        </skills>
+    </employee>
+</registry>
