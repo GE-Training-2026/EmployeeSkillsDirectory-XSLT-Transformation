@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Skills Directory</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+       <header>
+    <div class="header-top">
+        <div class="header-titles">
+            <h1>Team Directory</h1>
+            <p>Find mentors, skills, and colleagues</p>
+        </div>
+        <button id="addBtn" class="btn primary">+ Add Employee</button>
+    </div>
+
+    <div class="controls">
+        <input type="text" id="searchInput" placeholder="Search by name...">
+        <select id="deptFilter">
+            <option value="All">All Departments</option>
+            <option value="Engineering">Engineering</option>
+            <option value="Product">Product</option>
+            <option value="Data Science">Data Science</option>
+        </select>
+        <label class="mentor-toggle">
+            <input type="checkbox" id="mentorFilter"> Show Mentors Only
+        </label>
+    </div>
+</header>
+
+        <main id="directoryContainer">
+            <div class="loading">Loading Directory Data...</div>
+        </main>
+    </div>
+    <!-- <button id="addBtn" class="btn primary">+ Add Employee</button> -->
+
+<div id="addModal" class="modal hidden">
+    <div class="modal-content">
+        <h2>Add New Employee</h2>
+        <form id="addEmployeeForm">
+            <div class="form-group">
+                <label>Full Name</label>
+                <input type="text" id="newName" required>
+            </div>
+            <div class="form-group">
+                <label>Role</label>
+                <input type="text" id="newRole" required>
+            </div>
+            <div class="form-group">
+                <label>Department</label>
+                <select id="newDept" required>
+                    <option value="Engineering">Engineering</option>
+                    <option value="Product">Product</option>
+                    <option value="Data Science">Data Science</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Email</label>
+                <input type="email" id="newEmail" required>
+            </div>
+            <div class="form-group">
+                <label>Skills (comma separated)</label>
+                <input type="text" id="newSkills" placeholder="e.g. Java, Python, SQL" required>
+            </div>
+            <div class="form-group" style="display: flex; align-items: center; gap: 10px;">
+                <input type="checkbox" id="newMentor" style="width: 18px; height: 18px;">
+                <label style="margin: 0;">Available as Mentor?</label>
+            </div>
+            <div class="form-actions">
+                <button type="button" id="cancelBtn" class="btn secondary">Cancel</button>
+                <button type="submit" class="btn primary">Save Employee</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
